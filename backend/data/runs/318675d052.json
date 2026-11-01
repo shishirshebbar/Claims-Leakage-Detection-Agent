@@ -1,0 +1,1221 @@
+{
+ "id": "318675d052",
+ "audit": [
+  {
+   "ts": "2026-10-31T12:12:07+00:00",
+   "user": "system",
+   "action": "session_created",
+   "finding": null,
+   "detail": "5 table(s), 0 custom rule(s)"
+  },
+  {
+   "ts": "2026-10-31T12:12:17+00:00",
+   "user": "system",
+   "action": "analysis_run",
+   "finding": null,
+   "detail": "120 finding(s) in 0.39s; rules mode=augment; agent=deterministic (LLM unreachable)"
+  }
+ ],
+ "findings": [
+  {
+   "id": "F-0001",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 110,928.72, policy terms give 8,836.20",
+   "status": "open",
+   "amount": 102092.52,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0002",
+   "rule_id": "DUP-04",
+   "klass": "confirmed",
+   "title": "Payment of 101,277.96 made twice for invoice VINV-44302",
+   "status": "open",
+   "amount": 101277.96,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0003",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 79,763.04, policy terms give 3,836.70",
+   "status": "open",
+   "amount": 75926.34,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0004",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 118,427.40, policy terms give 46,540.80",
+   "status": "open",
+   "amount": 71886.6,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0005",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 78,334.56, policy terms give 7,492.00",
+   "status": "open",
+   "amount": 70842.56,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0006",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 97,179.60, policy terms give 26,809.20",
+   "status": "open",
+   "amount": 70370.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0007",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 101,403.12, policy terms give 32,598.00",
+   "status": "open",
+   "amount": 68805.12,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0008",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 92,267.28, policy terms give 26,514.00",
+   "status": "open",
+   "amount": 65753.28,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0009",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 74,859.12, policy terms give 10,739.00",
+   "status": "open",
+   "amount": 64120.12,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0010",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 70,541.52, policy terms give 16,407.00",
+   "status": "open",
+   "amount": 54134.52,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0011",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 55,632.96, policy terms give 5,033.00",
+   "status": "open",
+   "amount": 50599.96,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0012",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 88,592.40, policy terms give 40,788.00",
+   "status": "open",
+   "amount": 47804.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0013",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 90,451.44, policy terms give 43,343.00",
+   "status": "open",
+   "amount": 47108.44,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0014",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 95,786.04, policy terms give 49,141.80",
+   "status": "open",
+   "amount": 46644.24,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0015",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 90,421.20, policy terms give 47,595.00",
+   "status": "open",
+   "amount": 42826.2,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0016",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 60,933.60, policy terms give 21,319.20",
+   "status": "open",
+   "amount": 39614.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0017",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 76,093.92, policy terms give 39,519.00",
+   "status": "open",
+   "amount": 36574.92,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0018",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 79,192.68, policy terms give 45,625.50",
+   "status": "open",
+   "amount": 33567.18,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0019",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 48,880.08, policy terms give 16,362.00",
+   "status": "open",
+   "amount": 32518.08,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0020",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 72,629.28, policy terms give 40,304.00",
+   "status": "open",
+   "amount": 32325.28,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0021",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 56,804.16, policy terms give 25,327.80",
+   "status": "open",
+   "amount": 31476.36,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0022",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 48,837.60, policy terms give 20,203.00",
+   "status": "open",
+   "amount": 28634.6,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0023",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 52,683.12, policy terms give 28,513.00",
+   "status": "open",
+   "amount": 24170.12,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0024",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 43,980.48, policy terms give 22,625.00",
+   "status": "open",
+   "amount": 21355.48,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0025",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 50,192.64, policy terms give 31,683.00",
+   "status": "open",
+   "amount": 18509.64,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0026",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 59,994.48, policy terms give 42,121.80",
+   "status": "open",
+   "amount": 17872.68,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0027",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 30,240.00, policy terms give 12,541.00",
+   "status": "open",
+   "amount": 17699.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0028",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 71,682.24, policy terms give 54,093.60",
+   "status": "open",
+   "amount": 17588.64,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0029",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 49,391.16, policy terms give 37,316.70",
+   "status": "open",
+   "amount": 12074.46,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0030",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 52,076.88, policy terms give 42,281.00",
+   "status": "open",
+   "amount": 9795.88,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0031",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 82,853.28, policy terms give 75,722.00",
+   "status": "open",
+   "amount": 7131.28,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0032",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 38,545.08, policy terms give 31,699.80",
+   "status": "open",
+   "amount": 6845.28,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0033",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1021: claimed total differs from invoice lines by 119,740.00",
+   "status": "open",
+   "amount": 119740.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0034",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1004: claimed total differs from invoice lines by 96,306.00",
+   "status": "open",
+   "amount": 96306.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0035",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1014: claimed total differs from invoice lines by 88,232.00",
+   "status": "open",
+   "amount": 88232.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0036",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1041: claimed total differs from invoice lines by 88,193.00",
+   "status": "open",
+   "amount": 88193.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0037",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1015: claimed total differs from invoice lines by 86,773.00",
+   "status": "open",
+   "amount": 86773.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0038",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1005: claimed total differs from invoice lines by 83,402.00",
+   "status": "open",
+   "amount": 83402.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0039",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1009: claimed total differs from invoice lines by 81,998.00",
+   "status": "open",
+   "amount": 81998.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0040",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1019: claimed total differs from invoice lines by 77,882.00",
+   "status": "open",
+   "amount": 77882.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0041",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1002: claimed total differs from invoice lines by 77,284.00",
+   "status": "open",
+   "amount": 77284.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0042",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1006: claimed total differs from invoice lines by 77,257.00",
+   "status": "open",
+   "amount": 77257.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0043",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1012: claimed total differs from invoice lines by 72,990.00",
+   "status": "open",
+   "amount": 72990.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0044",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1036: claimed total differs from invoice lines by 67,235.00",
+   "status": "open",
+   "amount": 67235.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0045",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1011: claimed total differs from invoice lines by 63,248.00",
+   "status": "open",
+   "amount": 63248.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0046",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1001: claimed total differs from invoice lines by 56,929.00",
+   "status": "open",
+   "amount": 56929.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0047",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1016: claimed total differs from invoice lines by 55,570.00",
+   "status": "open",
+   "amount": 55570.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0048",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1026: claimed total differs from invoice lines by 46,527.00",
+   "status": "open",
+   "amount": 46527.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0049",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1039: claimed total differs from invoice lines by 46,352.00",
+   "status": "open",
+   "amount": 46352.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0050",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1043: claimed total differs from invoice lines by 44,178.00",
+   "status": "open",
+   "amount": 44178.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0051",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1044: claimed total differs from invoice lines by 42,627.00",
+   "status": "open",
+   "amount": 42627.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0052",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1027: claimed total differs from invoice lines by 41,082.00",
+   "status": "open",
+   "amount": 41082.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0053",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1024: claimed total differs from invoice lines by 39,658.00",
+   "status": "open",
+   "amount": 39658.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0054",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1029: claimed total differs from invoice lines by 36,982.00",
+   "status": "open",
+   "amount": 36982.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0055",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1008: claimed total differs from invoice lines by 34,352.00",
+   "status": "open",
+   "amount": 34352.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0056",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1030: claimed total differs from invoice lines by 33,459.00",
+   "status": "open",
+   "amount": 33459.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0057",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1010: claimed total differs from invoice lines by 33,029.00",
+   "status": "open",
+   "amount": 33029.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0058",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1022: claimed total differs from invoice lines by 25,048.00",
+   "status": "open",
+   "amount": 25048.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0059",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1034: claimed total differs from invoice lines by 24,459.00",
+   "status": "open",
+   "amount": 24459.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0060",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1025: claimed total differs from invoice lines by 22,732.00",
+   "status": "open",
+   "amount": 22732.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0061",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1023: claimed total differs from invoice lines by 22,120.00",
+   "status": "open",
+   "amount": 22120.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0062",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1007: claimed total differs from invoice lines by 14,836.00",
+   "status": "open",
+   "amount": 14836.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0063",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1045: claimed total differs from invoice lines by 8,165.00",
+   "status": "open",
+   "amount": 8165.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0064",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1003: claimed total differs from invoice lines by -35,624.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0065",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1013: claimed total differs from invoice lines by -23,810.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0066",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1017: claimed total differs from invoice lines by -11,895.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0067",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1018: claimed total differs from invoice lines by -13,418.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0068",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1020: claimed total differs from invoice lines by -5,644.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0069",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1028: claimed total differs from invoice lines by -24,149.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0070",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1031: claimed total differs from invoice lines by -564.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0071",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1032: claimed total differs from invoice lines by -14,233.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0072",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1033: claimed total differs from invoice lines by -40,675.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0073",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1035: claimed total differs from invoice lines by -2,469.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0074",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1037: claimed total differs from invoice lines by -23,443.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0075",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1038: claimed total differs from invoice lines by -22,021.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0076",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1040: claimed total differs from invoice lines by -30,065.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0077",
+   "rule_id": "AMT-01",
+   "klass": "suspicious",
+   "title": "Claim VC-1042: claimed total differs from invoice lines by -39,822.00",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0078",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "2 different claimants share the same bank account",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0079",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1015: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0080",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1021: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0081",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1009: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0082",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1047: missing invoice, photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0083",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1005: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0084",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1001: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0085",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1019: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0086",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1046: missing invoice, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0087",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1041: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0088",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1027: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0089",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1043: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0090",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1025: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0091",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1011: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0092",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1039: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0093",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1023: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0094",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1029: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0095",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1007: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0096",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1048: missing invoice, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0097",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1035: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0098",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1045: missing invoice, photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0099",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1013: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0100",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1031: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0101",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1017: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0102",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1037: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0103",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1003: missing photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0104",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1033: missing photos",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0105",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1049: missing invoice, photos, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0106",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim VC-1050: missing invoice, repair estimate",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0107",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 14,693.04, policy terms give 55,229.00",
+   "status": "open",
+   "amount": 40535.96,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0108",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 49,123.44, policy terms give 85,248.00",
+   "status": "open",
+   "amount": 36124.56,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0109",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 7,566.72, policy terms give 42,464.70",
+   "status": "open",
+   "amount": 34897.98,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0110",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 36,571.68, policy terms give 69,943.00",
+   "status": "open",
+   "amount": 33371.32,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0111",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 17,557.68, policy terms give 48,623.40",
+   "status": "open",
+   "amount": 31065.72,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0112",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 13,572.00, policy terms give 43,915.00",
+   "status": "open",
+   "amount": 30343.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0113",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 54,861.84, policy terms give 84,615.00",
+   "status": "open",
+   "amount": 29753.16,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0114",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 35,280.00, policy terms give 56,979.00",
+   "status": "open",
+   "amount": 21699.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0115",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 22,807.68, policy terms give 43,285.50",
+   "status": "open",
+   "amount": 20477.82,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0116",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 41,925.60, policy terms give 58,874.00",
+   "status": "open",
+   "amount": 16948.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0117",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 19,545.12, policy terms give 36,379.00",
+   "status": "open",
+   "amount": 16833.88,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0118",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 29,118.60, policy terms give 39,654.00",
+   "status": "open",
+   "amount": 10535.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0119",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 38,610.60, policy terms give 41,340.60",
+   "status": "open",
+   "amount": 2730.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0120",
+   "rule_id": "SET-01",
+   "klass": "under",
+   "title": "Under-settlement: paid 34,287.96, policy terms give 34,994.70",
+   "status": "open",
+   "amount": 706.74,
+   "decision": null,
+   "corrected_amount": null
+  }
+ ]
+}

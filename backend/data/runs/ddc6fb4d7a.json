@@ -1,0 +1,31 @@
+{
+ "id": "ddc6fb4d7a",
+ "audit": [
+  {
+   "ts": "2026-10-31T07:50:53+00:00",
+   "user": "system",
+   "action": "session_created",
+   "finding": null,
+   "detail": "1 table(s), 0 custom rule(s)"
+  },
+  {
+   "ts": "2026-10-31T07:50:53+00:00",
+   "user": "system",
+   "action": "analysis_run",
+   "finding": null,
+   "detail": "1 finding(s) in 0.12s; rules mode=augment; agent=deterministic (LLM unreachable)"
+  }
+ ],
+ "findings": [
+  {
+   "id": "F-0001",
+   "rule_id": "DUP-01",
+   "klass": "confirmed",
+   "title": "Invoice inv001 already claimed under A1",
+   "status": "open",
+   "amount": 1234.5,
+   "decision": null,
+   "corrected_amount": null
+  }
+ ]
+}

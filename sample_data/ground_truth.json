@@ -1,0 +1,110 @@
+[
+ {
+  "type": "duplicate_invoice",
+  "claims": [
+   "CL-1031",
+   "CL-1032"
+  ],
+  "leakage": 33750.0,
+  "note": "Same invoice paid in two claims; overpayment = full second payment, counted once"
+ },
+ {
+  "type": "duplicate_line",
+  "claims": [
+   "CL-1033"
+  ],
+  "note": "Same MRI line twice in one invoice (9000 line duplicated)"
+ },
+ {
+  "type": "room_limit",
+  "claims": [
+   "CL-1034"
+  ],
+  "excess": 9000,
+  "note": "Room 8000/day vs 5000 limit x3 days"
+ },
+ {
+  "type": "exclusion",
+  "claims": [
+   "CL-1035"
+  ],
+  "excess": 3500,
+  "note": "Vitamins excluded"
+ },
+ {
+  "type": "settlement",
+  "claims": [
+   "CL-1036"
+  ],
+  "expected": 40500.0,
+  "proposed": 46000,
+  "note": "Deductible and copay not applied"
+ },
+ {
+  "type": "near_duplicate",
+  "claims": [
+   "CL-1037",
+   "CL-1038"
+  ],
+  "note": "Date +1, amount +1%, different reference; should be suspicious"
+ },
+ {
+  "type": "lookalike",
+  "claims": [
+   "CL-1042"
+  ],
+  "note": "Weekly physiotherapy: legitimate; must NOT be flagged as duplicate"
+ },
+ {
+  "type": "missing_document",
+  "claims": [
+   "CL-1043"
+  ],
+  "note": "Discharge summary missing"
+ },
+ {
+  "type": "waiting_period",
+  "claims": [
+   "CL-1044"
+  ],
+  "note": "Loss 9 days after policy start; 30-day waiting period"
+ },
+ {
+  "type": "policy_period",
+  "claims": [
+   "CL-1045"
+  ],
+  "note": "Loss after policy end 2024-12-31"
+ },
+ {
+  "type": "coverage_limit",
+  "claims": [
+   "CL-1046"
+  ],
+  "note": "Policy limit 50000 but 80000 proposed"
+ },
+ {
+  "type": "sub_limit",
+  "claims": [
+   "CL-1047"
+  ],
+  "excess": 2000,
+  "note": "Ambulance sub-limit 3000"
+ },
+ {
+  "type": "duplicate_payment",
+  "claims": [
+   "CL-1048"
+  ],
+  "leakage": 17100.0,
+  "note": "Same payment issued twice"
+ },
+ {
+  "type": "related_party",
+  "claims": [
+   "CL-1049",
+   "CL-1050"
+  ],
+  "note": "Different claimants share a bank account"
+ }
+]

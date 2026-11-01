@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<claims>
+  <claim>
+    <claim_id>CL-MOCK-001</claim_id>
+    <policy_id>P-MOCK-001</policy_id>
+    <claimant_id>C-MOCK-001</claimant_id>
+    <provider>Northstar Clinic</provider>
+    <claim_type>Health</claim_type>
+    <loss_date>2026-03-01</loss_date>
+    <claim_date>2026-03-02</claim_date>
+    <claimed_amount>12000</claimed_amount>
+    <proposed_settlement>10800</proposed_settlement>
+    <invoice_no>INV-MOCK-001</invoice_no>
+  </claim>
+  <claim>
+    <claim_id>CL-MOCK-002</claim_id>
+    <policy_id>P-MOCK-002</policy_id>
+    <claimant_id>C-MOCK-002</claimant_id>
+    <provider>Riverside Medical</provider>
+    <claim_type>Health</claim_type>
+    <loss_date>2026-03-04</loss_date>
+    <claim_date>2026-03-05</claim_date>
+    <claimed_amount>8500</claimed_amount>
+    <proposed_settlement>7650</proposed_settlement>
+    <invoice_no>INV-MOCK-002</invoice_no>
+  </claim>
+  <claim>
+    <claim_id>CL-MOCK-003</claim_id>
+    <policy_id>P-MOCK-003</policy_id>
+    <claimant_id>C-MOCK-003</claimant_id>
+    <provider>Cedar Care</provider>
+    <claim_type>Health</claim_type>
+    <loss_date>2026-03-10</loss_date>
+    <claim_date>2026-03-11</claim_date>
+    <claimed_amount>5000</claimed_amount>
+    <proposed_settlement>4500</proposed_settlement>
+    <invoice_no>INV-MOCK-003</invoice_no>
+  </claim>
+</claims>

@@ -1,0 +1,31 @@
+{
+ "id": "5325493d54",
+ "audit": [
+  {
+   "ts": "2026-10-31T05:53:28+00:00",
+   "user": "system",
+   "action": "session_created",
+   "finding": null,
+   "detail": "1 table(s), 0 judge rule(s)"
+  },
+  {
+   "ts": "2026-10-31T05:53:28+00:00",
+   "user": "system",
+   "action": "analysis_run",
+   "finding": null,
+   "detail": "1 finding(s) in 0.09s; rules mode=augment"
+  }
+ ],
+ "findings": [
+  {
+   "id": "F-0001",
+   "rule_id": "DUP-02",
+   "klass": "confirmed",
+   "title": "Exact duplicate charge across claims A1 and A2",
+   "status": "open",
+   "amount": 1234.5,
+   "decision": null,
+   "corrected_amount": null
+  }
+ ]
+}

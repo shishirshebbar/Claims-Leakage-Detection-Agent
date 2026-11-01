@@ -1,0 +1,161 @@
+{
+ "id": "aa7c721a69",
+ "audit": [
+  {
+   "ts": "2026-10-31T07:18:34+00:00",
+   "user": "system",
+   "action": "session_created",
+   "finding": null,
+   "detail": "5 table(s), 5 custom rule(s)"
+  },
+  {
+   "ts": "2026-10-31T07:18:34+00:00",
+   "user": "system",
+   "action": "analysis_run",
+   "finding": null,
+   "detail": "14 finding(s) in 0.15s; rules mode=augment"
+  }
+ ],
+ "findings": [
+  {
+   "id": "F-0001",
+   "rule_id": "DUP-01",
+   "klass": "confirmed",
+   "title": "Invoice inv 7781 already claimed under CL-1031",
+   "status": "open",
+   "amount": 38500.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0002",
+   "rule_id": "LIM-01",
+   "klass": "confirmed",
+   "title": "Coverage limit 50,000.00 exceeded by 28,000.00",
+   "status": "open",
+   "amount": 28000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0003",
+   "rule_id": "DUP-04",
+   "klass": "confirmed",
+   "title": "Payment of 17,100.00 made twice for invoice INV-44151",
+   "status": "open",
+   "amount": 17100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0004",
+   "rule_id": "DUP-02",
+   "klass": "confirmed",
+   "title": "Exact duplicate charge within claim CL-1033",
+   "status": "open",
+   "amount": 9000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0005",
+   "rule_id": "LIM-03",
+   "klass": "confirmed",
+   "title": "Room rent above daily limit (8,000.00 vs 5,000.00)",
+   "status": "open",
+   "amount": 9000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0006",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 46,000.00, policy terms give 40,500.00",
+   "status": "open",
+   "amount": 5500.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0007",
+   "rule_id": "EXC-01",
+   "klass": "confirmed",
+   "title": "Excluded item 'vitamins' (3,500.00)",
+   "status": "open",
+   "amount": 3500.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0008",
+   "rule_id": "LIM-02",
+   "klass": "confirmed",
+   "title": "Sub-limit for 'ambulance' exceeded by 2,000.00",
+   "status": "open",
+   "amount": 2000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0009",
+   "rule_id": "POL-01",
+   "klass": "confirmed",
+   "title": "Claim CL-1044 outside cover: loss date 2024-03-10 falls within the 30-day waiting period from 2024-03-01",
+   "status": "open",
+   "amount": 2000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0010",
+   "rule_id": "SET-01",
+   "klass": "confirmed",
+   "title": "Settlement miscalculated: paid 80,000.00, policy terms give 78,000.00",
+   "status": "open",
+   "amount": 2000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0011",
+   "rule_id": "POL-01",
+   "klass": "confirmed",
+   "title": "Claim CL-1045 outside cover: loss date 2025-02-14 is after policy end 2024-12-31",
+   "status": "open",
+   "amount": 450.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0012",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charges across claims CL-1037 and CL-1038",
+   "status": "open",
+   "amount": 2415.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0013",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "2 different claimants share the same bank account",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0014",
+   "rule_id": "DOC-01",
+   "klass": "clarification",
+   "title": "Claim CL-1043: missing discharge summary",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  }
+ ]
+}

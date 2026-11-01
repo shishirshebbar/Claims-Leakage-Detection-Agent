@@ -1,0 +1,61 @@
+{
+ "id": "67586d82fd",
+ "audit": [
+  {
+   "ts": "2026-10-31T05:53:18+00:00",
+   "user": "system",
+   "action": "session_created",
+   "finding": null,
+   "detail": "1 table(s), 0 judge rule(s)"
+  },
+  {
+   "ts": "2026-10-31T05:53:18+00:00",
+   "user": "system",
+   "action": "analysis_run",
+   "finding": null,
+   "detail": "4 finding(s) in 0.31s; rules mode=augment"
+  }
+ ],
+ "findings": [
+  {
+   "id": "F-0001",
+   "rule_id": "DUP-01",
+   "klass": "confirmed",
+   "title": "Invoice inv 7781 already claimed under CL-1031",
+   "status": "open",
+   "amount": 38500.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0002",
+   "rule_id": "DUP-02",
+   "klass": "confirmed",
+   "title": "Exact duplicate charge within claim CL-1033",
+   "status": "open",
+   "amount": 9000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0003",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CL-1023 and CL-1025",
+   "status": "open",
+   "amount": 30015.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0004",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charges across claims CL-1037 and CL-1038",
+   "status": "open",
+   "amount": 2415.0,
+   "decision": null,
+   "corrected_amount": null
+  }
+ ]
+}

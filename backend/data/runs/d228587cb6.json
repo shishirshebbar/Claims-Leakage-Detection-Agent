@@ -1,0 +1,51 @@
+{
+ "id": "d228587cb6",
+ "audit": [
+  {
+   "ts": "2026-10-31T06:16:53+00:00",
+   "user": "system",
+   "action": "session_created",
+   "finding": null,
+   "detail": "1 table(s), 0 custom rule(s)"
+  },
+  {
+   "ts": "2026-10-31T06:17:13+00:00",
+   "user": "system",
+   "action": "analysis_run",
+   "finding": null,
+   "detail": "3 finding(s) in 15.11s; rules mode=augment"
+  }
+ ],
+ "findings": [
+  {
+   "id": "F-0001",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM35635 and CLM82215",
+   "status": "open",
+   "amount": 17000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0002",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM32639 and CLM82203",
+   "status": "open",
+   "amount": 14000.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0003",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM31455 and CLM82207",
+   "status": "open",
+   "amount": 13000.0,
+   "decision": null,
+   "corrected_amount": null
+  }
+ ]
+}

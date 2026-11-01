@@ -1,0 +1,126 @@
+claim_id,line_no,invoice_no,vendor,service_date,description,category,quantity,unit_price,amount
+CL-1001,1,INV-38140,Metro Diagnostics,22/08/2024,Consultation,consult,1,796,796
+CL-1001,2,INV-38140,Metro Diagnostics,22/08/2024,Nursing charges,nursing,1,1524,1524
+CL-1001,3,INV-38140,Metro Diagnostics,22/08/2024,Surgery fee,surgery,1,29957,29957
+CL-1001,4,INV-38140,Metro Diagnostics,22/08/2024,ECG,diagnostics,1,914,914
+CL-1002,1,INV-26226,Sunrise Clinic,16/09/2024,Surgery fee,surgery,1,29957,29957
+CL-1002,2,INV-26226,Sunrise Clinic,16/09/2024,Medication,pharmacy,1,2522,2522
+CL-1003,1,INV-64937,City General Hospital,28/10/2024,Consultation,consult,1,767,767
+CL-1003,2,INV-64937,City General Hospital,28/10/2024,Surgery fee,surgery,1,29987,29987
+CL-1004,1,INV-18229,Green Valley Hospital,25/10/2024,Blood test CBC,diagnostics,1,597,597
+CL-1004,2,INV-18229,Green Valley Hospital,25/10/2024,Consultation,consult,1,762,762
+CL-1004,3,INV-18229,Green Valley Hospital,25/10/2024,Surgery fee,surgery,1,30020,30020
+CL-1004,4,INV-18229,Green Valley Hospital,25/10/2024,Nursing charges,nursing,1,1541,1541
+CL-1005,1,INV-49291,Green Valley Hospital,23/07/2024,Nursing charges,nursing,1,1524,1524
+CL-1005,2,INV-49291,Green Valley Hospital,23/07/2024,X-ray chest,diagnostics,1,1208,1208
+CL-1005,3,INV-49291,Green Valley Hospital,23/07/2024,Medication,pharmacy,1,2496,2496
+CL-1006,1,INV-89817,Green Valley Hospital,02/08/2024,Surgery fee,surgery,1,30043,30043
+CL-1006,2,INV-89817,Green Valley Hospital,02/08/2024,Medication,pharmacy,1,2507,2507
+CL-1006,3,INV-89817,Green Valley Hospital,02/08/2024,X-ray chest,diagnostics,1,1186,1186
+CL-1007,1,INV-51123,Metro Diagnostics,27/08/2024,Consultation,consult,1,847,847
+CL-1007,2,INV-51123,Metro Diagnostics,27/08/2024,ECG,diagnostics,1,921,921
+CL-1007,3,INV-51123,Metro Diagnostics,27/08/2024,Nursing charges,nursing,1,1523,1523
+CL-1008,1,INV-18519,City General Hospital,06/10/2024,X-ray chest,diagnostics,1,1239,1239
+CL-1008,2,INV-18519,City General Hospital,06/10/2024,Medication,pharmacy,1,2535,2535
+CL-1009,1,INV-38600,City General Hospital,07/09/2024,X-ray chest,diagnostics,1,1164,1164
+CL-1009,2,INV-38600,City General Hospital,07/09/2024,Blood test CBC,diagnostics,1,613,613
+CL-1009,3,INV-38600,City General Hospital,07/09/2024,Surgery fee,surgery,1,29957,29957
+CL-1010,1,INV-27947,Metro Diagnostics,03/08/2024,Consultation,consult,1,801,801
+CL-1010,2,INV-27947,Metro Diagnostics,03/08/2024,Blood test CBC,diagnostics,1,620,620
+CL-1010,3,INV-27947,Metro Diagnostics,03/08/2024,Medication,pharmacy,1,2485,2485
+CL-1011,1,INV-40403,Metro Diagnostics,15/09/2024,Blood test CBC,diagnostics,1,572,572
+CL-1011,2,INV-40403,Metro Diagnostics,15/09/2024,Consultation,consult,1,769,769
+CL-1012,1,INV-84231,Apollo Care,03/10/2024,Consultation,consult,1,818,818
+CL-1012,2,INV-84231,Apollo Care,03/10/2024,Blood test CBC,diagnostics,1,597,597
+CL-1012,3,INV-84231,Apollo Care,03/10/2024,Medication,pharmacy,1,2528,2528
+CL-1013,1,INV-93137,Metro Diagnostics,10/10/2024,Nursing charges,nursing,1,1501,1501
+CL-1013,2,INV-93137,Metro Diagnostics,10/10/2024,Surgery fee,surgery,1,30000,30000
+CL-1013,3,INV-93137,Metro Diagnostics,10/10/2024,Medication,pharmacy,1,2463,2463
+CL-1013,4,INV-93137,Metro Diagnostics,10/10/2024,ECG,diagnostics,1,911,911
+CL-1014,1,INV-23419,Metro Diagnostics,18/06/2024,Consultation,consult,1,826,826
+CL-1014,2,INV-23419,Metro Diagnostics,18/06/2024,X-ray chest,diagnostics,1,1156,1156
+CL-1015,1,INV-88941,Apollo Care,16/10/2024,Consultation,consult,1,769,769
+CL-1015,2,INV-88941,Apollo Care,16/10/2024,Nursing charges,nursing,1,1531,1531
+CL-1015,3,INV-88941,Apollo Care,16/10/2024,Blood test CBC,diagnostics,1,582,582
+CL-1015,4,INV-88941,Apollo Care,16/10/2024,Medication,pharmacy,1,2494,2494
+CL-1016,1,INV-54909,Metro Diagnostics,30/06/2024,Medication,pharmacy,1,2468,2468
+CL-1016,2,INV-54909,Metro Diagnostics,30/06/2024,X-ray chest,diagnostics,1,1163,1163
+CL-1016,3,INV-54909,Metro Diagnostics,30/06/2024,Consultation,consult,1,845,845
+CL-1017,1,INV-81194,City General Hospital,12/07/2024,Surgery fee,surgery,1,29968,29968
+CL-1017,2,INV-81194,City General Hospital,12/07/2024,X-ray chest,diagnostics,1,1238,1238
+CL-1018,1,INV-75889,Apollo Care,06/08/2024,X-ray chest,diagnostics,1,1218,1218
+CL-1018,2,INV-75889,Apollo Care,06/08/2024,Blood test CBC,diagnostics,1,619,619
+CL-1019,1,INV-46623,Metro Diagnostics,20/07/2024,Nursing charges,nursing,1,1495,1495
+CL-1019,2,INV-46623,Metro Diagnostics,20/07/2024,Blood test CBC,diagnostics,1,643,643
+CL-1019,3,INV-46623,Metro Diagnostics,20/07/2024,ECG,diagnostics,1,853,853
+CL-1019,4,INV-46623,Metro Diagnostics,20/07/2024,Medication,pharmacy,1,2453,2453
+CL-1020,1,INV-54267,Apollo Care,28/08/2024,Consultation,consult,1,779,779
+CL-1020,2,INV-54267,Apollo Care,28/08/2024,Blood test CBC,diagnostics,1,610,610
+CL-1020,3,INV-54267,Apollo Care,28/08/2024,Nursing charges,nursing,1,1475,1475
+CL-1021,1,INV-93341,City General Hospital,28/08/2024,Nursing charges,nursing,1,1511,1511
+CL-1021,2,INV-93341,City General Hospital,28/08/2024,ECG,diagnostics,1,872,872
+CL-1021,3,INV-93341,City General Hospital,28/08/2024,Blood test CBC,diagnostics,1,605,605
+CL-1022,1,INV-29159,City General Hospital,27/09/2024,Blood test CBC,diagnostics,1,569,569
+CL-1022,2,INV-29159,City General Hospital,27/09/2024,Nursing charges,nursing,1,1525,1525
+CL-1022,3,INV-29159,City General Hospital,27/09/2024,ECG,diagnostics,1,909,909
+CL-1022,4,INV-29159,City General Hospital,27/09/2024,Consultation,consult,1,833,833
+CL-1023,1,INV-35533,Green Valley Hospital,29/08/2024,Blood test CBC,diagnostics,1,617,617
+CL-1023,2,INV-35533,Green Valley Hospital,29/08/2024,Consultation,consult,1,845,845
+CL-1023,3,INV-35533,Green Valley Hospital,29/08/2024,ECG,diagnostics,1,867,867
+CL-1023,4,INV-35533,Green Valley Hospital,29/08/2024,Surgery fee,surgery,1,30005,30005
+CL-1024,1,INV-64920,Sunrise Clinic,08/06/2024,Surgery fee,surgery,1,29991,29991
+CL-1024,2,INV-64920,Sunrise Clinic,08/06/2024,Blood test CBC,diagnostics,1,583,583
+CL-1024,3,INV-64920,Sunrise Clinic,08/06/2024,Nursing charges,nursing,1,1519,1519
+CL-1025,1,INV-34000,Green Valley Hospital,30/08/2024,Medication,pharmacy,1,2517,2517
+CL-1025,2,INV-34000,Green Valley Hospital,30/08/2024,Surgery fee,surgery,1,30015,30015
+CL-1025,3,INV-34000,Green Valley Hospital,30/08/2024,Blood test CBC,diagnostics,1,552,552
+CL-1025,4,INV-34000,Green Valley Hospital,30/08/2024,ECG,diagnostics,1,906,906
+CL-1026,1,INV-82802,Metro Diagnostics,15/07/2024,ECG,diagnostics,1,891,891
+CL-1026,2,INV-82802,Metro Diagnostics,15/07/2024,Consultation,consult,1,837,837
+CL-1026,3,INV-82802,Metro Diagnostics,15/07/2024,Surgery fee,surgery,1,30016,30016
+CL-1026,4,INV-82802,Metro Diagnostics,15/07/2024,Nursing charges,nursing,1,1517,1517
+CL-1027,1,INV-83626,Apollo Care,03/08/2024,Nursing charges,nursing,1,1514,1514
+CL-1027,2,INV-83626,Apollo Care,03/08/2024,Consultation,consult,1,807,807
+CL-1028,1,INV-76552,Green Valley Hospital,22/09/2024,Surgery fee,surgery,1,30007,30007
+CL-1028,2,INV-76552,Green Valley Hospital,22/09/2024,Nursing charges,nursing,1,1515,1515
+CL-1028,3,INV-76552,Green Valley Hospital,22/09/2024,Blood test CBC,diagnostics,1,618,618
+CL-1028,4,INV-76552,Green Valley Hospital,22/09/2024,X-ray chest,diagnostics,1,1211,1211
+CL-1029,1,INV-97969,Metro Diagnostics,23/09/2024,Medication,pharmacy,1,2490,2490
+CL-1029,2,INV-97969,Metro Diagnostics,23/09/2024,Nursing charges,nursing,1,1459,1459
+CL-1030,1,INV-28740,City General Hospital,25/07/2024,ECG,diagnostics,1,934,934
+CL-1030,2,INV-28740,City General Hospital,25/07/2024,Nursing charges,nursing,1,1496,1496
+CL-1031,1,INV-7781,City General Hospital,10/05/2024,Surgery fee,surgery,1,30000,30000
+CL-1031,2,INV-7781,City General Hospital,10/05/2024,Anaesthesia,surgery,1,6000,6000
+CL-1031,3,INV-7781,City General Hospital,10/05/2024,Medication,pharmacy,1,2500,2500
+CL-1032,1,inv 7781,City General Hospital,10/05/2024,Surgery fee,surgery,1,30000,30000
+CL-1032,2,inv 7781,City General Hospital,10/05/2024,Anaesthesia,surgery,1,6000,6000
+CL-1032,3,inv 7781,City General Hospital,10/05/2024,Medication,pharmacy,1,2500,2500
+CL-1033,1,INV-31337,Metro Diagnostics,02/07/2024,MRI brain,diagnostics,1,9000,9000
+CL-1033,2,INV-31337,Metro Diagnostics,02/07/2024,MRI brain,diagnostics,1,9000,9000
+CL-1033,3,INV-31337,Metro Diagnostics,02/07/2024,Consultation,consult,1,800,800
+CL-1034,1,INV-31163,Green Valley Hospital,01/08/2024,Room rent,room,3,8000,24000
+CL-1034,2,INV-31163,Green Valley Hospital,01/08/2024,Medication,pharmacy,1,4000,4000
+CL-1035,1,INV-54448,Apollo Care,15/04/2024,Consultation,consult,1,1000,1000
+CL-1035,2,INV-54448,Apollo Care,15/04/2024,Vitamins course,pharmacy,1,3500,3500
+CL-1035,3,INV-54448,Apollo Care,15/04/2024,Blood test,diagnostics,1,700,700
+CL-1036,1,INV-51749,Sunrise Clinic,09/09/2024,Surgery fee,surgery,1,40000,40000
+CL-1036,2,INV-51749,Sunrise Clinic,09/09/2024,Medication,pharmacy,1,6000,6000
+CL-1037,1,AP-5501,Apollo Care,03/10/2024,Cardiology consult,consult,1,1500,1500
+CL-1037,2,AP-5501,Apollo Care,03/10/2024,ECG,diagnostics,1,900,900
+CL-1038,1,AP-5502,Apollo Care,04/10/2024,Cardiology consult,consult,1,1515,1515
+CL-1038,2,AP-5502,Apollo Care,04/10/2024,ECG,diagnostics,1,900,900
+CL-1039,1,INV-53450,Sunrise Clinic,03/06/2024,Physiotherapy session,therapy,1,1200,1200
+CL-1040,1,INV-77143,Sunrise Clinic,10/06/2024,Physiotherapy session,therapy,1,1200,1200
+CL-1041,1,INV-21018,Sunrise Clinic,17/06/2024,Physiotherapy session,therapy,1,1200,1200
+CL-1042,1,INV-33796,Sunrise Clinic,24/06/2024,Physiotherapy session,therapy,1,1200,1200
+CL-1043,1,INV-65345,City General Hospital,20/06/2024,Surgery fee,surgery,1,25000,25000
+CL-1044,1,INV-29577,Sunrise Clinic,10/03/2024,Consultation,consult,1,1500,1500
+CL-1044,2,INV-29577,Sunrise Clinic,10/03/2024,Medication,pharmacy,1,2500,2500
+CL-1045,1,INV-52866,Sunrise Clinic,14/02/2025,Consultation,consult,1,1500,1500
+CL-1046,1,INV-34031,Green Valley Hospital,22/07/2024,Surgery fee,surgery,1,70000,70000
+CL-1046,2,INV-34031,Green Valley Hospital,22/07/2024,Medication,pharmacy,1,10000,10000
+CL-1047,1,INV-45248,Apollo Care,20/08/2024,Ambulance,ambulance,1,5000,5000
+CL-1047,2,INV-45248,Apollo Care,20/08/2024,Consultation,consult,1,1000,1000
+CL-1048,1,INV-44151,City General Hospital,30/09/2024,Surgery fee,surgery,1,20000,20000
+CL-1049,1,INV-44662,Sunrise Clinic,10/10/2024,Consultation,consult,1,1000,1000
+CL-1050,1,INV-69477,Apollo Care,11/10/2024,Consultation,consult,1,1100,1100

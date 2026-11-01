@@ -1,0 +1,6 @@
+# Custom rules (free text)
+1. Room rent is limited to 5000 per day.
+2. Excluded items: cosmetic, vitamins, gloves
+3. Near duplicate invoices within 3 days and 2% amount tolerance must be reviewed
+4. Sub-limit for ambulance is 3000
+5. Required documents: invoice, discharge summary

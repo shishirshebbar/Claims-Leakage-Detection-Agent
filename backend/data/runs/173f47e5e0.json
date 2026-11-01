@@ -1,0 +1,1701 @@
+{
+ "id": "173f47e5e0",
+ "audit": [
+  {
+   "ts": "2026-10-31T06:05:35+00:00",
+   "user": "system",
+   "action": "session_created",
+   "finding": null,
+   "detail": "1 table(s), 0 judge rule(s)"
+  },
+  {
+   "ts": "2026-10-31T06:06:20+00:00",
+   "user": "system",
+   "action": "analysis_run",
+   "finding": null,
+   "detail": "168 finding(s) in 44.59s; rules mode=augment"
+  }
+ ],
+ "findings": [
+  {
+   "id": "F-0001",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM595597 and CLM82311",
+   "status": "open",
+   "amount": 10100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0002",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM189030 and DUPN9",
+   "status": "open",
+   "amount": 3232.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0003",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM295173 and DUPN34",
+   "status": "open",
+   "amount": 2222.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0004",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM558438 and DUPX33",
+   "status": "open",
+   "amount": 1800.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0005",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM503671 and DUPN35",
+   "status": "open",
+   "amount": 1414.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0006",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM729667 and DUPX32",
+   "status": "open",
+   "amount": 800.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0007",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM319961 and DUPX17",
+   "status": "open",
+   "amount": 700.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0008",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM127184 and DUPX16",
+   "status": "open",
+   "amount": 700.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0009",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM561903 and DUPX4",
+   "status": "open",
+   "amount": 600.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0010",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM200119 and DUPX5",
+   "status": "open",
+   "amount": 600.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0011",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX37 and CLM413461",
+   "status": "open",
+   "amount": 600.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0012",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM491930 and DUPN32",
+   "status": "open",
+   "amount": 505.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0013",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM227667 and DUPN26",
+   "status": "open",
+   "amount": 505.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0014",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX36 and CLM399530",
+   "status": "open",
+   "amount": 400.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0015",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX25 and CLM704784",
+   "status": "open",
+   "amount": 400.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0016",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM175102 and DUPN25",
+   "status": "open",
+   "amount": 303.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0017",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM730396 and DUPN37",
+   "status": "open",
+   "amount": 303.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0018",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM696711 and DUPN17",
+   "status": "open",
+   "amount": 303.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0019",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM489249 and CLM490975",
+   "status": "open",
+   "amount": 300.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0020",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM348725 and DUPX28",
+   "status": "open",
+   "amount": 300.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0021",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM187180 and DUPN24",
+   "status": "open",
+   "amount": 202.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0022",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM181613 and DUPN31",
+   "status": "open",
+   "amount": 202.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0023",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM197268 and DUPN29",
+   "status": "open",
+   "amount": 202.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0024",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM279311 and DUPN19",
+   "status": "open",
+   "amount": 202.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0025",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM427071 and DUPX3",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0026",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM605775 and CLM610918",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0027",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX14 and CLM296102",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0028",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM422449 and CLM426102",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0029",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM652786 and CLM654371",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0030",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM248883 and CLM248882",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0031",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX20 and CLM463433",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0032",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM686172 and CLM691051",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0033",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX11 and CLM325536",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0034",
+   "rule_id": "DUP-05",
+   "klass": "suspicious",
+   "title": "Same incident claimed twice: CLM248882 and CLM248883",
+   "status": "open",
+   "amount": 200.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0035",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM695859 and DUPN36",
+   "status": "open",
+   "amount": 101.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0036",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM377891 and DUPN10",
+   "status": "open",
+   "amount": 101.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0037",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM451782 and CLM455323",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0038",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM470459 and CLM472230",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0039",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX9 and CLM239563",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0040",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX6 and CLM420730",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0041",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM563679 and DUPX35",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0042",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM740384 and CLM744573",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0043",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM553138 and CLM558429",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0044",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM592226 and DUPX12",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0045",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM437169 and DUPX18",
+   "status": "open",
+   "amount": 100.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0046",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM641143 and DUPN28",
+   "status": "open",
+   "amount": 90.9,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0047",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM723619 and DUPX29",
+   "status": "open",
+   "amount": 90.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0048",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX39 and CLM119053",
+   "status": "open",
+   "amount": 90.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0049",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM584511 and DUPN5",
+   "status": "open",
+   "amount": 80.8,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0050",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM561941 and DUPN12",
+   "status": "open",
+   "amount": 80.8,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0051",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM132618 and CLM134468",
+   "status": "open",
+   "amount": 80.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0052",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX21 and CLM742412",
+   "status": "open",
+   "amount": 80.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0053",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM270929 and CLM270928",
+   "status": "open",
+   "amount": 80.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0054",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX27 and CLM603234",
+   "status": "open",
+   "amount": 80.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0055",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM466966 and CLM472255",
+   "status": "open",
+   "amount": 80.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0056",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM276588 and DUPX38",
+   "status": "open",
+   "amount": 80.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0057",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM171405 and CLM175140",
+   "status": "open",
+   "amount": 80.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0058",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM354038 and DUPN16",
+   "status": "open",
+   "amount": 70.7,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0059",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM255321 and DUPN0",
+   "status": "open",
+   "amount": 70.7,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0060",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM190003 and DUPN18",
+   "status": "open",
+   "amount": 70.7,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0061",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX24 and CLM717400",
+   "status": "open",
+   "amount": 70.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0062",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX8 and CLM212849",
+   "status": "open",
+   "amount": 70.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0063",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM388783 and DUPX15",
+   "status": "open",
+   "amount": 70.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0064",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM722120 and CLM725253",
+   "status": "open",
+   "amount": 70.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0065",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM146398 and DUPN11",
+   "status": "open",
+   "amount": 60.6,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0066",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM648636 and DUPN15",
+   "status": "open",
+   "amount": 60.6,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0067",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM521430 and DUPN21",
+   "status": "open",
+   "amount": 60.6,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0068",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM490974 and DUPX0",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0069",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM241429 and CLM243270",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0070",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM235908 and CLM241431",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0071",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM126379 and CLM126378",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0072",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM126379 and DUPX26",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0073",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM229466 and DUPX22",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0074",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM479437 and CLM481224",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0075",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM196370 and DUPX31",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0076",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM229478 and CLM234980",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0077",
+   "rule_id": "DUP-05",
+   "klass": "suspicious",
+   "title": "Same incident claimed twice: CLM126378 and CLM126379",
+   "status": "open",
+   "amount": 60.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0078",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM539987 and DUPN2",
+   "status": "open",
+   "amount": 50.5,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0079",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM447268 and DUPN6",
+   "status": "open",
+   "amount": 50.5,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0080",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM610936 and DUPN14",
+   "status": "open",
+   "amount": 50.5,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0081",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM548822 and DUPN38",
+   "status": "open",
+   "amount": 40.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0082",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM301553 and DUPN13",
+   "status": "open",
+   "amount": 40.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0083",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM554943 and DUPN23",
+   "status": "open",
+   "amount": 40.4,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0084",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM366960 and DUPX2",
+   "status": "open",
+   "amount": 40.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0085",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX13 and CLM747399",
+   "status": "open",
+   "amount": 40.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0086",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM649434 and CLM652780",
+   "status": "open",
+   "amount": 40.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0087",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM399558 and CLM405153",
+   "status": "open",
+   "amount": 40.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0088",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM522311 and CLM527667",
+   "status": "open",
+   "amount": 40.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0089",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM315368 and CLM319034",
+   "status": "open",
+   "amount": 40.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0090",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM558405 and DUPN3",
+   "status": "open",
+   "amount": 30.3,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0091",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM251558 and DUPN4",
+   "status": "open",
+   "amount": 30.3,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0092",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM579244 and DUPN22",
+   "status": "open",
+   "amount": 30.3,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0093",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM610055 and DUPX30",
+   "status": "open",
+   "amount": 30.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0094",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM153782 and CLM157497",
+   "status": "open",
+   "amount": 30.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0095",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM692675 and CLM695865",
+   "status": "open",
+   "amount": 30.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0096",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX7 and CLM270908",
+   "status": "open",
+   "amount": 30.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0097",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM576750 and DUPX34",
+   "status": "open",
+   "amount": 30.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0098",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM156575 and CLM160288",
+   "status": "open",
+   "amount": 30.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0099",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM438974 and DUPX10",
+   "status": "open",
+   "amount": 30.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0100",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM378753 and DUPN1",
+   "status": "open",
+   "amount": 20.2,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0101",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM179762 and DUPN39",
+   "status": "open",
+   "amount": 20.2,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0102",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM241471 and DUPN8",
+   "status": "open",
+   "amount": 20.2,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0103",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX19 and CLM246029",
+   "status": "open",
+   "amount": 20.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0104",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM598144 and CLM598143",
+   "status": "open",
+   "amount": 20.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0105",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM430808 and CLM434428",
+   "status": "open",
+   "amount": 20.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0106",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM599847 and DUPN27",
+   "status": "open",
+   "amount": 10.1,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0107",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM468752 and DUPN7",
+   "status": "open",
+   "amount": 10.1,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0108",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM158481 and DUPN30",
+   "status": "open",
+   "amount": 10.1,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0109",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM277448 and CLM277449",
+   "status": "open",
+   "amount": 10.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0110",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM152893 and DUPX23",
+   "status": "open",
+   "amount": 10.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0111",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims CLM508141 and CLM508140",
+   "status": "open",
+   "amount": 10.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0112",
+   "rule_id": "DUP-02",
+   "klass": "suspicious",
+   "title": "Exact duplicate charge across claims DUPX1 and CLM388770",
+   "status": "open",
+   "amount": 0.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0113",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM631147 and DUPN33",
+   "status": "open",
+   "amount": 0.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0114",
+   "rule_id": "DUP-03",
+   "klass": "suspicious",
+   "title": "Near-duplicate charge across claims CLM140061 and DUPN20",
+   "status": "open",
+   "amount": 0.0,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0115",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN34: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0116",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN3: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0117",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN11: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0118",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN30: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0119",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN23: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0120",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN37: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0121",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN20: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0122",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN28: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0123",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN7: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0124",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN22: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0125",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN17: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0126",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN1: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0127",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN6: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0128",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN26: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0129",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN10: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0130",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN29: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0131",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN14: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0132",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN12: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0133",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN5: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0134",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN27: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0135",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN31: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0136",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN8: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0137",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN24: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0138",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN18: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0139",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN21: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0140",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN0: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0141",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN13: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0142",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN2: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0143",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN32: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0144",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN25: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0145",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN35: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0146",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN36: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0147",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN33: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0148",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN38: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0149",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN16: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0150",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN39: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0151",
+   "rule_id": "TIM-01",
+   "klass": "suspicious",
+   "title": "Claim DUPN4: timeline inconsistency",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0152",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE19272 repeatedly claims at provider PRV52066 (18 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0153",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE16181 repeatedly claims at provider PRV52870 (17 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0154",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE15085 repeatedly claims at provider PRV55188 (17 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0155",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE14568 repeatedly claims at provider PRV54837 (16 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0156",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE14488 repeatedly claims at provider PRV51459 (16 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0157",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE16280 repeatedly claims at provider PRV53076 (16 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0158",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE12890 repeatedly claims at provider PRV57181 (15 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0159",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE13770 repeatedly claims at provider PRV57718 (14 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0160",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE16030 repeatedly claims at provider PRV55913 (14 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0161",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE16142 repeatedly claims at provider PRV56556 (14 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0162",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE15419 repeatedly claims at provider PRV55715 (14 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0163",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE19231 repeatedly claims at provider PRV52527 (14 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0164",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE17162 repeatedly claims at provider PRV53871 (14 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0165",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE16672 repeatedly claims at provider PRV53244 (13 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0166",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE17766 repeatedly claims at provider PRV51005 (13 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0167",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE12691 repeatedly claims at provider PRV55715 (13 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  },
+  {
+   "id": "F-0168",
+   "rule_id": "REL-01",
+   "klass": "suspicious",
+   "title": "Claimant BENE18549 repeatedly claims at provider PRV56566 (13 claims)",
+   "status": "open",
+   "amount": null,
+   "decision": null,
+   "corrected_amount": null
+  }
+ ]
+}

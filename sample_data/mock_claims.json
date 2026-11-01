@@ -1,0 +1,75 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL-MOCK-001",
+      "policy_id": "P-MOCK-001",
+      "claimant_id": "C-MOCK-001",
+      "provider": "Northstar Clinic",
+      "claim_type": "Health",
+      "loss_date": "2026-03-01",
+      "claim_date": "2026-03-02",
+      "claimed_amount": 12000,
+      "proposed_settlement": 10800,
+      "invoice_no": "INV-MOCK-001"
+    },
+    {
+      "claim_id": "CL-MOCK-002",
+      "policy_id": "P-MOCK-002",
+      "claimant_id": "C-MOCK-002",
+      "provider": "Riverside Medical",
+      "claim_type": "Health",
+      "loss_date": "2026-03-04",
+      "claim_date": "2026-03-05",
+      "claimed_amount": 8500,
+      "proposed_settlement": 7650,
+      "invoice_no": "INV-MOCK-002"
+    },
+    {
+      "claim_id": "CL-MOCK-003",
+      "policy_id": "P-MOCK-003",
+      "claimant_id": "C-MOCK-003",
+      "provider": "Cedar Care",
+      "claim_type": "Health",
+      "loss_date": "2026-03-10",
+      "claim_date": "2026-03-11",
+      "claimed_amount": 5000,
+      "proposed_settlement": 4500,
+      "invoice_no": "INV-MOCK-003"
+    }
+  ],
+  "policies": [
+    {
+      "policy_id": "P-MOCK-001",
+      "coverage_limit": 100000,
+      "deductible": 500,
+      "copay_pct": 10,
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "room_limit_per_day": 5000,
+      "exclusions": "",
+      "waiting_days": 0
+    },
+    {
+      "policy_id": "P-MOCK-002",
+      "coverage_limit": 100000,
+      "deductible": 500,
+      "copay_pct": 10,
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "room_limit_per_day": 5000,
+      "exclusions": "",
+      "waiting_days": 0
+    },
+    {
+      "policy_id": "P-MOCK-003",
+      "coverage_limit": 100000,
+      "deductible": 500,
+      "copay_pct": 10,
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "room_limit_per_day": 5000,
+      "exclusions": "",
+      "waiting_days": 0
+    }
+  ]
+}
